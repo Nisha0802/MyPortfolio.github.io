@@ -885,6 +885,11 @@ h3 {
     font-weight: 400;
     cursor: pointer;
 }
+@media only screen and (max-width:400px){
+#contact .contact-row .contact-left .icon-box .info h4+p {
+    font-size: 14px;
+}
+}
 
 /* Mobile View */
 @media only screen and (max-width:800px) {
