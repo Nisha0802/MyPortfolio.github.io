@@ -580,7 +580,14 @@ main {
         display: flex;
     }
 }
-
+@media only screen and (max-width:400px) {
+    b {
+        font-size: 13px;
+    }
+    h4{
+        font-size: 13px;
+    }
+}
 #mh-skills .row .mh-professional-skill {
     flex-basis: 40%;
     min-width: 40%;
@@ -877,6 +884,11 @@ h3 {
     font-size: 17px;
     font-weight: 400;
     cursor: pointer;
+}
+@media only screen and (max-width:400px){
+#contact .contact-row .contact-left .icon-box .info h4+p {
+    font-size: 14px;
+}
 }
 
 /* Mobile View */
