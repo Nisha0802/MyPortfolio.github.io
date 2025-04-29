@@ -300,7 +300,9 @@ main {
 }
 
 #about .about-col .img-col img {
+    padding-top: 20px;
     width: 80%;
+
 }
 
 #about .about-col .info-col {
@@ -342,6 +344,7 @@ main {
     font-weight: 600;
     margin-right: 2px;
 }
+
 
 #about .about-col .info-col .icon-list-col .icon-list ul li span {
     color: var(--textColor);
